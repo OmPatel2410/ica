@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ompatel4799/backend:latest
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ompatel4799/frontend:latest
+    ports:
+      - "5001:5001"
